@@ -29,15 +29,15 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
         <div className="relative h-full w-full bg-gradient-primary rounded-lg flex items-center justify-center">
           {/* QR-inspired pattern */}
           <div className="grid grid-cols-3 gap-[1px] w-3/4 h-3/4">
-            <div className="bg-background rounded-[1px]" />
+            <div className="bg-black rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-background rounded-[1px]" />
+            <div className="bg-black rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-background rounded-[1px]" />
+            <div className="bg-black rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-background rounded-[1px]" />
+            <div className="bg-black rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-background rounded-[1px]" />
+            <div className="bg-black rounded-[1px]" />
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
             Offer Ave
           </span>
           <span className="text-xs text-muted-foreground tracking-wide">
-            RETAIL REFERRAL NETWORK
+            QR REFERRAL NETWORK
           </span>
         </div>
       )}
