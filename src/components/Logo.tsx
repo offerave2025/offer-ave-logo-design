@@ -49,7 +49,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
             Offer Ave
           </span>
           <span className="text-xs text-muted-foreground tracking-wide">
-            QR REFERRAL NETWORK
+            RETAIL REFERRAL NETWORK
           </span>
         </div>
       )}
