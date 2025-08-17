@@ -25,19 +25,19 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
     <div className={`flex items-center gap-3 ${className}`}>
       {/* Logo Icon */}
       <div className={`${sizes[size]} relative`}>
-        <div className="absolute inset-0 bg-gradient-primary rounded-lg shadow-logo" />
-        <div className="relative h-full w-full bg-gradient-hero rounded-lg flex items-center justify-center">
+        <div className="absolute inset-0 bg-gradient-vibrant rounded-lg shadow-logo animate-pulse" />
+        <div className="relative h-full w-full bg-gradient-rainbow rounded-lg flex items-center justify-center overflow-hidden">
           {/* QR-inspired pattern with multiple colors */}
           <div className="grid grid-cols-3 gap-[1px] w-3/4 h-3/4">
-            <div className="bg-cyan-400 rounded-[1px]" />
+            <div className="bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-[1px] animate-pulse" />
             <div className="bg-transparent" />
-            <div className="bg-green-500 rounded-[1px]" />
+            <div className="bg-gradient-to-br from-green-400 to-emerald-600 rounded-[1px] animate-pulse" style={{ animationDelay: '0.2s' }} />
             <div className="bg-transparent" />
-            <div className="bg-purple-500 rounded-[1px]" />
+            <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-[1px] animate-pulse" style={{ animationDelay: '0.4s' }} />
             <div className="bg-transparent" />
-            <div className="bg-cyan-600 rounded-[1px]" />
+            <div className="bg-gradient-to-br from-rose-400 to-pink-600 rounded-[1px] animate-pulse" style={{ animationDelay: '0.6s' }} />
             <div className="bg-transparent" />
-            <div className="bg-cyan-400 rounded-[1px]" />
+            <div className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-[1px] animate-pulse" style={{ animationDelay: '0.8s' }} />
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
       {/* Logo Text */}
       {showText && (
         <div className="flex flex-col">
-          <span className={`font-bold ${textSizes[size]} bg-gradient-hero bg-clip-text text-transparent leading-none`}>
+          <span className={`font-bold ${textSizes[size]} bg-gradient-vibrant bg-clip-text text-transparent leading-none animate-pulse`}>
             Offer Ave
           </span>
           <span className="text-xs text-muted-foreground tracking-wide">
