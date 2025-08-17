@@ -26,18 +26,18 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
       {/* Logo Icon */}
       <div className={`${sizes[size]} relative`}>
         <div className="absolute inset-0 bg-gradient-primary rounded-lg shadow-logo" />
-        <div className="relative h-full w-full bg-gradient-primary rounded-lg flex items-center justify-center">
-          {/* QR-inspired pattern */}
+        <div className="relative h-full w-full bg-gradient-hero rounded-lg flex items-center justify-center">
+          {/* QR-inspired pattern with multiple colors */}
           <div className="grid grid-cols-3 gap-[1px] w-3/4 h-3/4">
-            <div className="bg-black rounded-[1px]" />
+            <div className="bg-cyan-400 rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-black rounded-[1px]" />
+            <div className="bg-green-500 rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-black rounded-[1px]" />
+            <div className="bg-purple-500 rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-black rounded-[1px]" />
+            <div className="bg-cyan-600 rounded-[1px]" />
             <div className="bg-transparent" />
-            <div className="bg-black rounded-[1px]" />
+            <div className="bg-cyan-400 rounded-[1px]" />
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
       {/* Logo Text */}
       {showText && (
         <div className="flex flex-col">
-          <span className={`font-bold ${textSizes[size]} bg-gradient-primary bg-clip-text text-transparent leading-none`}>
+          <span className={`font-bold ${textSizes[size]} bg-gradient-hero bg-clip-text text-transparent leading-none`}>
             Offer Ave
           </span>
           <span className="text-xs text-muted-foreground tracking-wide">
