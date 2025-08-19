@@ -49,7 +49,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
             SwapPOS
           </span>
           <span className="text-xs text-muted-foreground tracking-wide">
-            POS Retail Partnerships
+            Cross-Promote with your POS
           </span>
         </div>
       )}
