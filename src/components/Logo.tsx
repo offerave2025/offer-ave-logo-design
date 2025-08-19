@@ -46,10 +46,10 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
       {showText && (
         <div className="flex flex-col">
           <span className={`font-bold ${textSizes[size]} bg-gradient-vibrant bg-clip-text text-transparent leading-none animate-pulse`}>
-            Swappos
+            SwapPos
           </span>
           <span className="text-xs text-muted-foreground tracking-wide">
-            RETAIL REFERRAL NETWORK
+            POS-POS RETAIL PARTNERSHIPS
           </span>
         </div>
       )}
