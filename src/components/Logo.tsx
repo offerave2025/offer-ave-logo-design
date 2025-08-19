@@ -46,7 +46,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', showText = true, className = '
       {showText && (
         <div className="flex flex-col">
           <span className={`font-bold ${textSizes[size]} bg-gradient-vibrant bg-clip-text text-transparent leading-none animate-pulse`}>
-            SwaPPos
+            SwapPOS
           </span>
           <span className="text-xs text-muted-foreground tracking-wide">
             POS-POS RETAIL PARTNERSHIPS
